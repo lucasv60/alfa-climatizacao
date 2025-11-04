@@ -36,10 +36,10 @@ export function Header() {
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
             <Button asChild>
-              <Link href="#contato" className="flex items-center gap-2">
+              <a href="https://api.whatsapp.com/send?phone=5544991111996" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
                 Fale Conosco
-              </Link>
+              </a>
             </Button>
           </div>
 
@@ -75,10 +75,10 @@ export function Header() {
                 Sobre Nós
               </Link>
               <Button asChild className="w-full">
-                <Link href="#contato" className="flex items-center justify-center gap-2">
+                <a href="https://api.whatsapp.com/send?phone=5544991111996" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
                   <Phone className="h-4 w-4" />
                   Fale Conosco
-                </Link>
+                </a>
               </Button>
             </nav>
           </div>
