@@ -158,89 +158,6 @@ export default function SobrePage() {
           </div>
         </section>
 
-        {/* Equipe / Responsáveis */}
-        <section className="py-16 md:py-24">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Nossos Responsáveis</h2>
-              <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Conheça os profissionais que lideram nossa
-                equipe.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              {/* Responsável 1 */}
-              <Card className="hover:shadow-lg transition-shadow">
-                <CardContent className="pt-6">
-                  <div className="space-y-4">
-                    <div className="relative h-48 w-full mb-4">
-                      <img
-                        src="/professional-engineer-portrait.png"
-                        alt="Carlos Eduardo Silva"
-                        className="rounded-lg object-cover w-full h-full"
-                      />
-                    </div>
-                    <div className="text-center">
-                      <h3 className="text-xl font-bold mb-1">Carlos Eduardo Silva</h3>
-                      <p className="text-sm text-primary font-medium mb-3">Diretor Técnico</p>
-                      <p className="text-sm text-muted-foreground leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Engenheiro Mecânico com 20 anos de
-                        experiência em refrigeração industrial.
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-
-              {/* Responsável 2 */}
-              <Card className="hover:shadow-lg transition-shadow">
-                <CardContent className="pt-6">
-                  <div className="space-y-4">
-                    <div className="relative h-48 w-full mb-4">
-                      <img
-                        src="/professional-manager-portrait.jpg"
-                        alt="Ana Paula Rodrigues"
-                        className="rounded-lg object-cover w-full h-full"
-                      />
-                    </div>
-                    <div className="text-center">
-                      <h3 className="text-xl font-bold mb-1">Ana Paula Rodrigues</h3>
-                      <p className="text-sm text-primary font-medium mb-3">Diretora Comercial</p>
-                      <p className="text-sm text-muted-foreground leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Especialista em gestão de projetos e
-                        relacionamento com clientes.
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-
-              {/* Responsável 3 */}
-              <Card className="hover:shadow-lg transition-shadow">
-                <CardContent className="pt-6">
-                  <div className="space-y-4">
-                    <div className="relative h-48 w-full mb-4">
-                      <img
-                        src="/professional-technician-portrait.png"
-                        alt="Roberto Almeida"
-                        className="rounded-lg object-cover w-full h-full"
-                      />
-                    </div>
-                    <div className="text-center">
-                      <h3 className="text-xl font-bold mb-1">Roberto Almeida</h3>
-                      <p className="text-sm text-primary font-medium mb-3">Gerente de Operações</p>
-                      <p className="text-sm text-muted-foreground leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Técnico certificado com expertise em
-                        manutenção e PMOC.
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        </section>
 
         {/* Diferenciais */}
         <section className="py-16 md:py-24 bg-muted/30">
@@ -314,78 +231,7 @@ export default function SobrePage() {
           </div>
         </section>
 
-        {/* Certificados */}
-        <section className="py-16 md:py-24">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Certificações e Qualificações</h2>
-              <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nossas certificações garantem qualidade e
-                conformidade.
-              </p>
-            </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 max-w-5xl mx-auto">
-              {[1, 2, 3, 4, 5, 6].map((i) => (
-                <Card key={i} className="hover:shadow-lg transition-shadow">
-                  <CardContent className="pt-6">
-                    <div className="aspect-square flex items-center justify-center">
-                      <img
-                        src={`/certification-badge.png?height=120&width=120&query=certification badge ${i}`}
-                        alt={`Certificação ${i}`}
-                        className="w-full h-full object-contain"
-                      />
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-
-            <div className="mt-12 text-center">
-              <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Todas as nossas certificações estão em
-                conformidade com as normas técnicas vigentes.
-              </p>
-              <div className="flex flex-wrap justify-center gap-3">
-                <Badge variant="outline">ISO 9001</Badge>
-                <Badge variant="outline">NR 13</Badge>
-                <Badge variant="outline">ABNT NBR 16401</Badge>
-                <Badge variant="outline">Lei 13.589/2018</Badge>
-                <Badge variant="outline">PROCEL</Badge>
-                <Badge variant="outline">INMETRO</Badge>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* CTA */}
-        <section className="py-16 md:py-24 bg-primary text-primary-foreground">
-          <div className="container mx-auto px-4">
-            <div className="max-w-3xl mx-auto text-center space-y-6">
-              <h2 className="text-3xl md:text-4xl font-bold text-balance">Quer Fazer Parte da Nossa História?</h2>
-              <p className="text-lg text-primary-foreground/90 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Entre em contato e descubra como podemos ajudar
-                seu negócio.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" variant="secondary" asChild>
-                  <a href="https://api.whatsapp.com/send?phone=5544991111996" target="_blank" rel="noopener noreferrer">
-                    Fale Conosco
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </a>
-                </Button>
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-                  asChild
-                >
-                  <Link href="/servicos">Nossos Serviços</Link>
-                </Button>
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Contato */}
         <section id="contato" className="py-16 md:py-24">
@@ -393,10 +239,6 @@ export default function SobrePage() {
             <div className="max-w-2xl mx-auto">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Entre em Contato</h2>
-                <p className="text-muted-foreground leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Entre em contato diretamente pelo WhatsApp
-                  para um atendimento rápido e personalizado.
-                </p>
               </div>
 
               <Card>
