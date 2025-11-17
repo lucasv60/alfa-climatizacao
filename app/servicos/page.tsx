@@ -31,10 +31,9 @@ export default function ServicosPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <Badge className="w-fit mx-auto">Nossos Serviços</Badge>
-              <h1 className="text-4xl md:text-5xl font-bold text-balance">Soluções Completas em Refrigeração</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-balance">Serviços Técnicos de Ar-Condicionado</h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Oferecemos serviços especializados para
-                garantir o melhor desempenho dos seus sistemas de refrigeração.
+                Instalação, manutenção, reparo e elaboração de PMOC com equipe especializada. Conforto térmico garantido para sua casa ou empresa.
               </p>
             </div>
           </div>
@@ -52,36 +51,50 @@ export default function ServicosPage() {
                       <Snowflake className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <CardTitle className="text-2xl mb-2">Instalação de Sistemas</CardTitle>
+                      <CardTitle className="text-2xl mb-2">Instalações Residenciais e Comerciais</CardTitle>
                       <p className="text-sm text-muted-foreground font-normal">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        Trabalhando com a instalação profissional dos principais tipos de ar-condicionado
                       </p>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-muted-foreground leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Realizamos instalações completas de sistemas de refrigeração.
+                    Trabalhamos com a instalação profissional dos principais tipos de ar-condicionado, garantindo segurança, eficiência e o melhor desempenho para seu ambiente.
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">Ar condicionado split e central</span>
+                      <span className="text-sm text-muted-foreground">Ar-condicionado Split</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">Câmaras frigoríficas</span>
+                      <span className="text-sm text-muted-foreground">Ar-condicionado Split Inverter</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">Sistemas de ventilação industrial</span>
+                      <span className="text-sm text-muted-foreground">Ar-condicionado de Janela</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">Chillers e torres de resfriamento</span>
+                      <span className="text-sm text-muted-foreground">Ar-condicionado Cassete</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                      <span className="text-sm text-muted-foreground">Ar-condicionado Piso Teto</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                      <span className="text-sm text-muted-foreground">Cortinas de Ar para ambientes climatizados</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                      <span className="text-sm text-muted-foreground">Ar-condicionado Multisplit</span>
                     </li>
                   </ul>
+                  <p className="text-sm text-muted-foreground">
+                    Conte com uma equipe especializada para instalar o equipamento ideal, seja em residências, comércios ou empresas.
+                  </p>
                   <Button variant="outline" className="w-full bg-transparent" asChild>
                     <Link href="#contato">
                       Solicitar Orçamento
@@ -101,15 +114,17 @@ export default function ServicosPage() {
                     <div>
                       <CardTitle className="text-2xl mb-2">Manutenção Preventiva e Corretiva</CardTitle>
                       <p className="text-sm text-muted-foreground font-normal">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        Garantimos o desempenho ideal do seu ar-condicionado com serviços especializados
                       </p>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-muted-foreground leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco. Manutenção especializada para máxima eficiência.
+                    Garantimos o desempenho ideal do seu ar-condicionado com serviços especializados para aumentar a eficiência, prolongar a vida útil dos equipamentos e evitar falhas inesperadas.
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Nossa equipe realiza manutenções completas tanto preventivas quanto corretivas, sempre seguindo padrões técnicos e garantindo a melhor performance do sistema.
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2">
@@ -118,17 +133,20 @@ export default function ServicosPage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">Atendimento emergencial 24/7</span>
+                      <span className="text-sm text-muted-foreground">Atendimento corretivo emergencial</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">Limpeza e higienização de sistemas</span>
+                      <span className="text-sm text-muted-foreground">Limpeza e higienização completa dos sistemas</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                       <span className="text-sm text-muted-foreground">Troca de peças e componentes</span>
                     </li>
                   </ul>
+                  <p className="text-sm text-muted-foreground">
+                    Cuidamos do seu equipamento para manter o ambiente sempre confortável, seguro e com ar de qualidade.
+                  </p>
                   <Button variant="outline" className="w-full bg-transparent" asChild>
                     <Link href="#contato">
                       Solicitar Orçamento
@@ -146,36 +164,41 @@ export default function ServicosPage() {
                       <FileCheck className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <CardTitle className="text-2xl mb-2">PMOC - Plano de Manutenção</CardTitle>
+                      <CardTitle className="text-2xl mb-2">PMOC – Plano de Manutenção, Operação e Controle</CardTitle>
                       <p className="text-sm text-muted-foreground font-normal">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        Garantimos total conformidade com a Lei 13.589/2018 por meio de um PMOC completo
                       </p>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-muted-foreground leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit.
-                    Plano completo conforme legislação vigente.
+                    Garantimos total conformidade com a Lei 13.589/2018 por meio de um PMOC completo, estruturado e elaborado por profissionais habilitados. Nossa equipe assegura a qualidade do ar, a segurança dos usuários e o pleno funcionamento dos sistemas de climatização.
+                  </p>
+                  <p className="text-muted-foreground font-semibold mb-4">
+                    O que oferecemos no PMOC:
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">Elaboração do PMOC conforme Lei 13.589/2018</span>
+                      <span className="text-sm text-muted-foreground">Elaboração do PMOC conforme a Lei 13.589/2018 e normas técnicas vigentes</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">Análise de qualidade do ar</span>
+                      <span className="text-sm text-muted-foreground">Análise de qualidade do ar e condições ambientais</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">Relatórios técnicos detalhados</span>
+                      <span className="text-sm text-muted-foreground">Relatórios técnicos completos e atualizados</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">Acompanhamento e documentação</span>
+                      <span className="text-sm text-muted-foreground">Acompanhamento periódico e documentação obrigatória sempre em dia</span>
                     </li>
                   </ul>
+                  <p className="text-sm text-muted-foreground">
+                    Atendemos empresas, comércios e ambientes que exigem conformidade legal e máxima qualidade do ar.
+                  </p>
                   <Button variant="outline" className="w-full bg-transparent" asChild>
                     <Link href="#contato">
                       Solicitar Orçamento
@@ -193,36 +216,38 @@ export default function ServicosPage() {
                       <Building2 className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <CardTitle className="text-2xl mb-2">Projetos de Infraestrutura</CardTitle>
+                      <CardTitle className="text-2xl mb-2">Projetos de Infraestrutura para Ar-Condicionado</CardTitle>
                       <p className="text-sm text-muted-foreground font-normal">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        Desenvolvemos projetos completos de infraestrutura para garantir instalações seguras
                       </p>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-muted-foreground leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non
-                    proident. Projetos completos de infraestrutura.
+                    Desenvolvemos projetos completos de infraestrutura para garantir instalações seguras, eficientes e preparadas para o melhor desempenho dos sistemas de climatização. Atuamos desde o planejamento até a adequação final do ambiente, sempre seguindo normas técnicas e as necessidades do seu projeto.
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">Projetos elétricos e hidráulicos</span>
+                      <span className="text-sm text-muted-foreground">Projetos elétricos e hidráulicos para sistemas de climatização</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">Dimensionamento de sistemas</span>
+                      <span className="text-sm text-muted-foreground">Dimensionamento correto dos equipamentos e tubulações</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">Adequação de ambientes</span>
+                      <span className="text-sm text-muted-foreground">Adequação estrutural e funcional dos ambientes</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">Consultoria técnica especializada</span>
+                      <span className="text-sm text-muted-foreground">Consultoria técnica especializada para soluções personalizadas</span>
                     </li>
                   </ul>
+                  <p className="text-sm text-muted-foreground">
+                    Ideal para obras residenciais, comerciais e empresariais que exigem uma instalação bem planejada e duradoura.
+                  </p>
                   <Button variant="outline" className="w-full bg-transparent" asChild>
                     <a href="https://api.whatsapp.com/send?phone=5544991111996" target="_blank" rel="noopener noreferrer">
                       Solicitar Orçamento
@@ -241,8 +266,7 @@ export default function ServicosPage() {
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Serviços Complementares</h2>
               <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Oferecemos também serviços especializados
-                complementares.
+                Além da instalação e manutenção, oferecemos uma linha completa de serviços complementares para garantir desempenho, segurança e eficiência máxima dos sistemas de climatização.
               </p>
             </div>
 
@@ -255,7 +279,7 @@ export default function ServicosPage() {
                     </div>
                     <h3 className="font-semibold text-lg">Análise Térmica</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Análise completa de eficiência térmica.
+                      Avaliação completa da eficiência térmica do ambiente para identificar melhorias e otimizar o desempenho dos sistemas.
                     </p>
                   </div>
                 </CardContent>
@@ -269,7 +293,7 @@ export default function ServicosPage() {
                     </div>
                     <h3 className="font-semibold text-lg">Qualidade do Ar</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Monitoramento e análise da qualidade.
+                      Monitoramento e análise da qualidade do ar interno, garantindo ambientes mais saudáveis e em conformidade com normas vigentes.
                     </p>
                   </div>
                 </CardContent>
@@ -283,7 +307,7 @@ export default function ServicosPage() {
                     </div>
                     <h3 className="font-semibold text-lg">Eficiência Energética</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Otimização do consumo energético.
+                      Estudos e soluções para reduzir o consumo de energia, elevando o rendimento dos equipamentos.
                     </p>
                   </div>
                 </CardContent>
@@ -297,7 +321,7 @@ export default function ServicosPage() {
                     </div>
                     <h3 className="font-semibold text-lg">Laudos Técnicos</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Documentação técnica completa.
+                      Emissão de documentação técnica completa para obras, vistorias, conformidade legal e auditorias.
                     </p>
                   </div>
                 </CardContent>
@@ -309,9 +333,9 @@ export default function ServicosPage() {
                     <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center">
                       <Settings className="h-6 w-6 text-primary" />
                     </div>
-                    <h3 className="font-semibold text-lg">Retrofit</h3>
+                    <h3 className="font-semibold text-lg">Retrofit de Sistemas</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Modernização de sistemas antigos.
+                      Modernização de sistemas antigos para melhorar eficiência, reduzir custos e aumentar a vida útil dos equipamentos.
                     </p>
                   </div>
                 </CardContent>
@@ -325,7 +349,7 @@ export default function ServicosPage() {
                     </div>
                     <h3 className="font-semibold text-lg">Certificações</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suporte para certificações técnicas.
+                      Suporte técnico para obtenção de certificações e cumprimento de requisitos normativos.
                     </p>
                   </div>
                 </CardContent>
@@ -337,9 +361,9 @@ export default function ServicosPage() {
                     <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center">
                       <Gauge className="h-6 w-6 text-primary" />
                     </div>
-                    <h3 className="font-semibold text-lg">Monitoramento</h3>
+                    <h3 className="font-semibold text-lg">Monitoramento Remoto</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Monitoramento remoto 24/7.
+                      Acompanhamento 24/7 do desempenho dos equipamentos, prevenindo falhas e otimizando a operação.
                     </p>
                   </div>
                 </CardContent>
@@ -351,9 +375,9 @@ export default function ServicosPage() {
                     <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center">
                       <Building2 className="h-6 w-6 text-primary" />
                     </div>
-                    <h3 className="font-semibold text-lg">Consultoria</h3>
+                    <h3 className="font-semibold text-lg">Consultoria Especializada</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consultoria técnica especializada.
+                      Orientação técnica para projetos, obras, climatização e melhorias operacionais.
                     </p>
                   </div>
                 </CardContent>
@@ -368,7 +392,7 @@ export default function ServicosPage() {
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Como Trabalhamos</h2>
               <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nosso processo garante qualidade e eficiência.
+                Nosso processo foi desenvolvido para garantir qualidade, segurança e eficiência em cada etapa do serviço.
               </p>
             </div>
 
@@ -379,7 +403,7 @@ export default function ServicosPage() {
                 </div>
                 <h3 className="font-semibold text-lg">Diagnóstico</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Análise completa das necessidades.
+                  Avaliação completa do ambiente e identificação das necessidades para definir a solução ideal.
                 </p>
               </div>
 
@@ -389,7 +413,7 @@ export default function ServicosPage() {
                 </div>
                 <h3 className="font-semibold text-lg">Planejamento</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Projeto detalhado e orçamento.
+                  Desenvolvimento do projeto, definição dos equipamentos e apresentação do orçamento detalhado.
                 </p>
               </div>
 
@@ -399,7 +423,7 @@ export default function ServicosPage() {
                 </div>
                 <h3 className="font-semibold text-lg">Execução</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Implementação com qualidade.
+                  Instalação ou manutenção realizada por profissionais qualificados, seguindo normas técnicas e garantindo o melhor desempenho.
                 </p>
               </div>
 
@@ -409,7 +433,7 @@ export default function ServicosPage() {
                 </div>
                 <h3 className="font-semibold text-lg">Acompanhamento</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suporte contínuo e manutenção.
+                  Suporte contínuo, manutenções programadas e orientação para manter seu sistema sempre em perfeito funcionamento.
                 </p>
               </div>
             </div>
@@ -422,8 +446,7 @@ export default function ServicosPage() {
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold text-balance">Precisa de Algum Desses Serviços?</h2>
               <p className="text-lg text-primary-foreground/90 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Entre em contato e receba um orçamento
-                personalizado.
+                Fale conosco e receba um orçamento rápido e personalizado para sua necessidade.
               </p>
               <Button size="lg" variant="secondary" asChild>
                 <a href="https://api.whatsapp.com/send?phone=5544991111996" target="_blank" rel="noopener noreferrer">
@@ -442,8 +465,7 @@ export default function ServicosPage() {
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Solicite um Orçamento</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Entre em contato diretamente pelo WhatsApp
-                  para um atendimento rápido e personalizado.
+                  Entre em contato diretamente pelo WhatsApp para um atendimento rápido e personalizado.
                 </p>
               </div>
 
