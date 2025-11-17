@@ -30,10 +30,10 @@ export default function HomePage() {
               <div className="space-y-6">
                 <Badge className="w-fit">Especialistas em Ar Condicionado</Badge>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-balance leading-tight">
-                  Ar Condicionado de Qualidade para Sua Casa e Empresa
+                  Excelência em Serviços de Ar-Condicionado para Ambientes Residenciais e Corporativos
                 </h1>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Instalação, manutenção e reparo de ar condicionado com profissionais experientes. Garantimos conforto térmico, economia de energia e ar puro para você e sua família.
+                  Instalação, manutenção, reparo e elaboração de PMOC com equipe especializada. Mais conforto, eficiência energética e ar puro para sua casa ou empresa.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button size="lg" asChild>
@@ -85,19 +85,6 @@ export default function HomePage() {
                 </CardContent>
               </Card>
 
-              <Card className="border-2 hover:border-primary transition-colors">
-                <CardContent className="pt-6">
-                  <div className="flex flex-col items-center text-center space-y-4">
-                    <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
-                      <Clock className="h-6 w-6 text-primary" />
-                    </div>
-                    <h3 className="font-semibold text-lg">Atendimento 24/7</h3>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
-                      Emergências de ar condicionado resolvidas rapidamente, 24 horas por dia.
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
 
               <Card className="border-2 hover:border-primary transition-colors">
                 <CardContent className="pt-6">
@@ -146,34 +133,37 @@ export default function HomePage() {
                   PMOC
                 </Badge>
                 <h2 className="text-3xl md:text-4xl font-bold text-balance">
-                  Plano de Manutenção, Operação e Controle
+                  Plano de Manutenção, Operação e Controle (PMOC)
                 </h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Mantenha seu ar condicionado sempre funcionando perfeitamente. Evite multas e garanta ar puro e economia de energia.
+                  Garanta o funcionamento ideal do seu ar-condicionado, evite multas e mantenha um ambiente saudável com ar puro e mais economia de energia.
+                </p>
+                <p className="text-muted-foreground font-semibold mb-4">
+                  Com o PMOC você garante:
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <span className="text-muted-foreground">
-                      Evite multas legais com manutenção preventiva
+                      Conformidade legal e zero risco de multas
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <span className="text-muted-foreground">
-                      Reduza custos com reparos de emergência
+                      Redução de custos com manutenções corretivas
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <span className="text-muted-foreground">
-                      Ar condicionado durando mais tempo
+                      Maior vida útil dos equipamentos
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <span className="text-muted-foreground">
-                      Ambiente mais saudável com ar puro
+                      Ambientes mais saudáveis, com qualidade do ar garantida
                     </span>
                   </li>
                 </ul>
@@ -381,9 +371,9 @@ export default function HomePage() {
         <section className="py-16 md:py-24 bg-primary text-primary-foreground">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center space-y-6">
-              <h2 className="text-3xl md:text-4xl font-bold text-balance">Precisa de Ar Condicionado Agora?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-balance">Problemas no Ar-Condicionado?</h2>
               <p className="text-lg text-primary-foreground/90 leading-relaxed">
-                Entre em contato e receba um orçamento personalizado para seu ar condicionado.
+                Chame nossa equipe e receba um orçamento na hora.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" variant="secondary" asChild>
@@ -410,7 +400,7 @@ export default function HomePage() {
           <div className="container mx-auto px-4">
             <div className="max-w-2xl mx-auto">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Fale Conosco Sobre Ar Condicionado</h2>
+                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Fale Conosco Sobre seu Ar Condicionado</h2>
                 <p className="text-muted-foreground leading-relaxed">
                   Entre em contato diretamente pelo WhatsApp para atendimento rápido sobre ar condicionado.
                 </p>
