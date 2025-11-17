@@ -70,7 +70,7 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
               <Card className="border-2 hover:border-primary transition-colors">
                 <CardContent className="pt-6">
                   <div className="flex flex-col items-center text-center space-y-4">
@@ -84,7 +84,6 @@ export default function HomePage() {
                   </div>
                 </CardContent>
               </Card>
-
 
               <Card className="border-2 hover:border-primary transition-colors">
                 <CardContent className="pt-6">
