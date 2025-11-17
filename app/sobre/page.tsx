@@ -18,11 +18,13 @@ export default function SobrePage() {
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <Badge className="w-fit mx-auto">Sobre Nós</Badge>
               <h1 className="text-4xl md:text-5xl font-bold text-balance">
-                Especialistas em Refrigeração Há Mais de 15 Anos
+                Sobre Nós
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.
+                A Alfa Climatização é uma empresa jovem, moderna e comprometida em entregar serviços de climatização com qualidade, segurança e eficiência. Apesar de termos 1 ano de operação, nossa equipe é formada por técnicos e especialistas com mais de 6 anos de experiência no setor de refrigeração e ar-condicionado.
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Unimos conhecimento técnico, atendimento humanizado e as melhores práticas do mercado para garantir soluções confiáveis para residências, empresas e indústrias.
               </p>
             </div>
           </div>
@@ -50,32 +52,27 @@ export default function SobrePage() {
                 <h2 className="text-3xl md:text-4xl font-bold text-balance">Nossa História</h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                    A Alfa Climatização nasceu com o propósito de oferecer um serviço mais profissional, transparente e alinhado às necessidades reais dos clientes.
                   </p>
                   <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                    anim id est laborum.
+                    Começamos como uma equipe pequena, mas altamente qualificada, focada em instalações, manutenções e projetos de climatização. Desde então, evoluímos rapidamente atendendo residências, comércios e empresas que buscavam um atendimento ágil e especializado.
                   </p>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                    dicta sunt explicabo.
+                    Com processos bem definidos, compromisso com prazos e foco na qualidade do ar e eficiência energética, construímos uma reputação baseada na confiança e satisfação dos nossos clientes.
                   </p>
                 </div>
                 <div className="grid grid-cols-3 gap-6 pt-4">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-primary mb-1">15+</div>
-                    <div className="text-sm text-muted-foreground">Anos de Experiência</div>
+                    <div className="text-3xl font-bold text-primary mb-1">6+ anos</div>
+                    <div className="text-sm text-muted-foreground">de experiência somada da equipe técnica</div>
                   </div>
                   <div className="text-center">
                     <div className="text-3xl font-bold text-primary mb-1">500+</div>
-                    <div className="text-sm text-muted-foreground">Projetos Concluídos</div>
+                    <div className="text-sm text-muted-foreground">serviços realizados em instalação, manutenção e PMOC</div>
                   </div>
                   <div className="text-center">
                     <div className="text-3xl font-bold text-primary mb-1">98%</div>
-                    <div className="text-sm text-muted-foreground">Satisfação</div>
+                    <div className="text-sm text-muted-foreground">de aprovação dos clientes atendidos</div>
                   </div>
                 </div>
               </div>
@@ -89,7 +86,7 @@ export default function SobrePage() {
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Missão, Visão e Valores</h2>
               <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nossos princípios guiam cada decisão.
+                Nossos princípios fundamentais guiam cada decisão e ação da Alfa Climatização.
               </p>
             </div>
 
@@ -103,9 +100,7 @@ export default function SobrePage() {
                     </div>
                     <h3 className="text-2xl font-bold">Missão</h3>
                     <p className="text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Fornecer soluções de refrigeração com excelência técnica,
-                      garantindo eficiência, segurança e sustentabilidade.
+                      Oferecer soluções completas em climatização com excelência técnica, garantindo conforto, segurança, qualidade do ar e eficiência energética para nossos clientes.
                     </p>
                   </div>
                 </CardContent>
@@ -120,9 +115,7 @@ export default function SobrePage() {
                     </div>
                     <h3 className="text-2xl font-bold">Visão</h3>
                     <p className="text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud
-                      exercitation ullamco. Ser referência nacional em soluções de refrigeração, reconhecida pela
-                      inovação e qualidade dos serviços.
+                      Ser referência regional em serviços de climatização, reconhecida pela qualidade, confiabilidade e modernização constante dos nossos processos.
                     </p>
                   </div>
                 </CardContent>
@@ -147,7 +140,7 @@ export default function SobrePage() {
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                        <span className="text-sm text-muted-foreground">Sustentabilidade</span>
+                        <span className="text-sm text-muted-foreground">Sustentabilidade e eficiência energética</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
