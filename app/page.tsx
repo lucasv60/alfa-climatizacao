@@ -28,13 +28,12 @@ export default function HomePage() {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
-                <Badge className="w-fit">Especialistas em Refrigeração</Badge>
+                <Badge className="w-fit">Especialistas em Ar Condicionado</Badge>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-balance leading-tight">
-                  Soluções Completas em <span className="text-primary">Refrigeração</span>
+                  Ar Condicionado de Qualidade para Sua Casa e Empresa
                 </h1>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Garantimos eficiência, segurança e conformidade técnica.
+                  Instalação, manutenção e reparo de ar condicionado com profissionais experientes. Garantimos conforto térmico, economia de energia e ar puro para você e sua família.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button size="lg" asChild>
@@ -64,11 +63,10 @@ export default function HomePage() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">
-                Por Que Escolher a Alfa Climatização?
+                Por Que Escolher Nossos Serviços de Ar Condicionado?
               </h2>
               <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nossos diferenciais garantem a melhor
-                experiência.
+                Qualidade e confiança em cada instalação e manutenção de ar condicionado.
               </p>
             </div>
 
@@ -81,7 +79,7 @@ export default function HomePage() {
                     </div>
                     <h3 className="font-semibold text-lg">Segurança Garantida</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Normas técnicas rigorosas.
+                      Ar condicionado instalado com segurança e garantia total para sua família.
                     </p>
                   </div>
                 </CardContent>
@@ -95,7 +93,7 @@ export default function HomePage() {
                     </div>
                     <h3 className="font-semibold text-lg">Atendimento 24/7</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suporte emergencial sempre disponível.
+                      Emergências de ar condicionado resolvidas rapidamente, 24 horas por dia.
                     </p>
                   </div>
                 </CardContent>
@@ -109,8 +107,7 @@ export default function HomePage() {
                     </div>
                     <h3 className="font-semibold text-lg">Certificações</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Profissionais certificados e
-                      qualificados.
+                      Profissionais especializados e certificados em ar condicionado.
                     </p>
                   </div>
                 </CardContent>
@@ -124,7 +121,7 @@ export default function HomePage() {
                     </div>
                     <h3 className="font-semibold text-lg">Garantia Total</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Garantia em todos os serviços prestados.
+                      Cobertura total em todos os serviços de ar condicionado.
                     </p>
                   </div>
                 </CardContent>
@@ -152,32 +149,31 @@ export default function HomePage() {
                   Plano de Manutenção, Operação e Controle
                 </h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. O PMOC é obrigatório por lei e garante a qualidade do ar e eficiência energética.
+                  Mantenha seu ar condicionado sempre funcionando perfeitamente. Evite multas e garanta ar puro e economia de energia.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <span className="text-muted-foreground">
-                      Lorem ipsum dolor sit amet - Conformidade com a Lei Federal 13.589/2018
+                      Evite multas legais com manutenção preventiva
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <span className="text-muted-foreground">
-                      Consectetur adipiscing elit - Redução de custos operacionais
+                      Reduza custos com reparos de emergência
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <span className="text-muted-foreground">
-                      Sed do eiusmod tempor - Aumento da vida útil dos equipamentos
+                      Ar condicionado durando mais tempo
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <span className="text-muted-foreground">
-                      Incididunt ut labore - Qualidade do ar e saúde dos ocupantes
+                      Ambiente mais saudável com ar puro
                     </span>
                   </li>
                 </ul>
@@ -196,10 +192,9 @@ export default function HomePage() {
         <section className="py-16 md:py-24 bg-muted/30">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Nossos Principais Serviços</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Nossos Serviços de Ar Condicionado</h2>
               <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Soluções completas para todas as suas
-                necessidades.
+                Soluções completas para instalação e manutenção de ar condicionado residencial e comercial.
               </p>
             </div>
 
@@ -210,9 +205,9 @@ export default function HomePage() {
                     <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center">
                       <Snowflake className="h-6 w-6 text-primary" />
                     </div>
-                    <h3 className="font-semibold text-lg">Instalação</h3>
+                    <h3 className="font-semibold text-lg">Instalação de Ar Condicionado</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Instalação profissional de sistemas.
+                      Instalação profissional garantindo máximo desempenho do seu ar condicionado.
                     </p>
                     <Button variant="link" className="p-0 h-auto" asChild>
                       <Link href="/servicos">
@@ -230,9 +225,9 @@ export default function HomePage() {
                     <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center">
                       <Wrench className="h-6 w-6 text-primary" />
                     </div>
-                    <h3 className="font-semibold text-lg">Manutenção</h3>
+                    <h3 className="font-semibold text-lg">Manutenção de Ar Condicionado</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Manutenção preventiva e corretiva.
+                      Manutenção preventiva para ar condicionado sempre funcionando perfeitamente.
                     </p>
                     <Button variant="link" className="p-0 h-auto" asChild>
                       <Link href="/servicos">
@@ -252,7 +247,7 @@ export default function HomePage() {
                     </div>
                     <h3 className="font-semibold text-lg">PMOC</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Plano completo de manutenção.
+                      Plano completo que mantém ar condicionado em perfeitas condições e evita multas.
                     </p>
                     <Button variant="link" className="p-0 h-auto" asChild>
                       <Link href="/servicos">
@@ -270,9 +265,9 @@ export default function HomePage() {
                     <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center">
                       <Building2 className="h-6 w-6 text-primary" />
                     </div>
-                    <h3 className="font-semibold text-lg">Infraestrutura</h3>
+                    <h3 className="font-semibold text-lg">Infraestrutura para Ar Condicionado</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Projetos de infraestrutura completos.
+                      Projetos completos de infraestrutura para sistemas de ar condicionado eficientes.
                     </p>
                     <Button variant="link" className="p-0 h-auto" asChild>
                       <Link href="/servicos">
@@ -300,10 +295,9 @@ export default function HomePage() {
         <section className="py-16 md:py-24">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">O Que Nossos Clientes Dizem</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">O Que Nossos Clientes Dizem Sobre Nosso Ar Condicionado</h2>
               <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Confira a experiência de quem confia em nosso
-                trabalho.
+                Veja como nossos serviços de ar condicionado transformaram o conforto dos nossos clientes.
               </p>
             </div>
 
@@ -317,16 +311,15 @@ export default function HomePage() {
                       ))}
                     </div>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                      labore. Serviço excepcional e equipe muito profissional!"
+                      "O ar condicionado que instalaram na minha casa funciona perfeitamente. O ambiente fica fresco no verão e confortável no inverno. Recomendo a Alfa Climatização!"
                     </p>
                     <div className="flex items-center gap-3">
                       <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center">
-                        <span className="text-sm font-semibold text-primary">JM</span>
+                        <span className="text-sm font-semibold text-primary">MC</span>
                       </div>
                       <div>
-                        <p className="font-semibold text-sm">João Martins</p>
-                        <p className="text-xs text-muted-foreground">Gerente de Facilities</p>
+                        <p className="font-semibold text-sm">Maria Clara</p>
+                        <p className="text-xs text-muted-foreground">Dona de Casa</p>
                       </div>
                     </div>
                   </div>
@@ -342,16 +335,15 @@ export default function HomePage() {
                       ))}
                     </div>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam. A manutenção
-                      preventiva reduziu nossos custos significativamente."
+                      "A manutenção preventiva do ar condicionado da empresa reduziu nossos custos de energia em 30%. Serviço excelente!"
                     </p>
                     <div className="flex items-center gap-3">
                       <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center">
-                        <span className="text-sm font-semibold text-primary">MS</span>
+                        <span className="text-sm font-semibold text-primary">JS</span>
                       </div>
                       <div>
-                        <p className="font-semibold text-sm">Maria Silva</p>
-                        <p className="text-xs text-muted-foreground">Proprietária de Restaurante</p>
+                        <p className="font-semibold text-sm">João Silva</p>
+                        <p className="text-xs text-muted-foreground">Empresário</p>
                       </div>
                     </div>
                   </div>
@@ -367,16 +359,15 @@ export default function HomePage() {
                       ))}
                     </div>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis nostrud exercitation ullamco.
-                      Atendimento rápido e eficiente, recomendo!"
+                      "Repararam meu ar condicionado em poucas horas. Atendimento rápido e preço justo. Voltarei sempre!"
                     </p>
                     <div className="flex items-center gap-3">
                       <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center">
-                        <span className="text-sm font-semibold text-primary">PC</span>
+                        <span className="text-sm font-semibold text-primary">AC</span>
                       </div>
                       <div>
-                        <p className="font-semibold text-sm">Pedro Costa</p>
-                        <p className="text-xs text-muted-foreground">Diretor Industrial</p>
+                        <p className="font-semibold text-sm">Ana Costa</p>
+                        <p className="text-xs text-muted-foreground">Professora</p>
                       </div>
                     </div>
                   </div>
@@ -390,10 +381,9 @@ export default function HomePage() {
         <section className="py-16 md:py-24 bg-primary text-primary-foreground">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center space-y-6">
-              <h2 className="text-3xl md:text-4xl font-bold text-balance">Pronto Para Começar Seu Projeto?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-balance">Precisa de Ar Condicionado Agora?</h2>
               <p className="text-lg text-primary-foreground/90 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Entre em contato conosco e receba um orçamento
-                personalizado para suas necessidades.
+                Entre em contato e receba um orçamento personalizado para seu ar condicionado.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" variant="secondary" asChild>
@@ -408,7 +398,7 @@ export default function HomePage() {
                   className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
                   asChild
                 >
-                  <Link href="/servicos">Conhecer Serviços</Link>
+                  <Link href="/servicos">Ver Serviços de Ar Condicionado</Link>
                 </Button>
               </div>
             </div>
@@ -420,10 +410,9 @@ export default function HomePage() {
           <div className="container mx-auto px-4">
             <div className="max-w-2xl mx-auto">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Entre em Contato</h2>
+                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Fale Conosco Sobre Ar Condicionado</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Entre em contato diretamente pelo WhatsApp
-                  para um atendimento rápido e personalizado.
+                  Entre em contato diretamente pelo WhatsApp para atendimento rápido sobre ar condicionado.
                 </p>
               </div>
 
@@ -437,18 +426,18 @@ export default function HomePage() {
                     </div>
                     <h3 className="text-xl font-semibold">Fale Conosco pelo WhatsApp</h3>
                     <p className="text-muted-foreground">
-                      Clique no botão abaixo para iniciar uma conversa diretamente no WhatsApp
+                      Clique no botão abaixo para iniciar uma conversa sobre ar condicionado diretamente no WhatsApp
                     </p>
                     <Button size="lg" className="w-full bg-green-500 hover:bg-green-600" asChild>
                       <a href="https://api.whatsapp.com/send?phone=5544991111996" target="_blank" rel="noopener noreferrer">
                         <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
                           <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
                         </svg>
-                        Iniciar Conversa no WhatsApp
+                        Conversar no WhatsApp Sobre Ar Condicionado
                       </a>
                     </Button>
                     <p className="text-sm text-muted-foreground">
-                      Atendimento rápido • Orçamento gratuito • Suporte 24/7
+                      Atendimento rápido • Orçamento gratuito • Especialistas em ar condicionado
                     </p>
                   </div>
                 </CardContent>
