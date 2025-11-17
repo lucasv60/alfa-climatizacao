@@ -49,8 +49,8 @@ export default function HomePage() {
               </div>
               <div className="relative h-[400px] lg:h-[500px]">
                 <img
-                  src="/industrial-refrigeration-system-with-pipes-and-equ.jpg"
-                  alt="Sistema de refrigeração industrial"
+                  src="/foto-capa-home.jpg"
+                  alt="Ar condicionado profissional - Alfa Climatização"
                   className="rounded-lg object-cover w-full h-full shadow-2xl"
                 />
               </div>
