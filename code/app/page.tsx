@@ -1,9 +1,9 @@
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
-import InstagramPosts from "@/components/instagram-posts"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+import { Header } from "../components/header"
+import { Footer } from "../components/footer"
+import InstagramPosts from "../components/instagram-posts"
+import { Button } from "../components/ui/button"
+import { Card, CardContent } from "../components/ui/card"
+import { Badge } from "../components/ui/badge"
 import Link from "next/link"
 import {
   Snowflake,
