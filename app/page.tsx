@@ -29,8 +29,8 @@ export default function HomePage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
                 <Badge className="w-fit">Especialistas em Ar Condicionado</Badge>
-                <h1 className="text-4xl md:text-4xl lg:text-4xl font-bold text-balance leading-tight">
-                  Excelência em Serviços de Ar-Condicionado para Ambientes Residenciais e Corporativos
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-balance leading-tight">
+                  Serviços Técnicos de Ar-Condicionado
                 </h1>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Instalação, manutenção, reparo e elaboração de PMOC com equipe especializada. Mais conforto, eficiência energética e ar puro para sua casa ou empresa.
