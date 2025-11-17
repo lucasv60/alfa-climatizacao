@@ -44,12 +44,11 @@ export default function LandingPage() {
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight text-balance">
-                Climatização Profissional para Seu Negócio
+                Ar Condicionado de Qualidade para Sua Casa e Empresa
               </h1>
 
               <p className="text-lg md:text-xl text-muted-foreground text-pretty">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Instalação, manutenção e PMOC com equipe
-                especializada e certificada.
+                Instalação, manutenção e reparo de ar condicionado com profissionais experientes. Garantimos conforto térmico, economia de energia e ar puro para você e sua família.
               </p>
 
               {/* Benefícios Rápidos */}
@@ -64,8 +63,8 @@ export default function LandingPage() {
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="h-6 w-6 text-accent shrink-0 mt-0.5" />
                   <div>
-                    <p className="font-semibold text-foreground">Equipe Certificada</p>
-                    <p className="text-sm text-muted-foreground">Profissionais qualificados</p>
+                    <p className="font-semibold text-foreground">Técnicos Certificados</p>
+                    <p className="text-sm text-muted-foreground">Profissionais especializados em ar condicionado</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -119,20 +118,20 @@ export default function LandingPage() {
         <div className="container">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">15+</div>
-              <div className="text-sm md:text-base opacity-90">Anos de Experiência</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2">6+ anos</div>
+              <div className="text-sm md:text-base opacity-90">de experiência somada da equipe técnica</div>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">2.500+</div>
-              <div className="text-sm md:text-base opacity-90">Clientes Atendidos</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2">500+</div>
+              <div className="text-sm md:text-base opacity-90">serviços realizados em instalação, manutenção e PMOC</div>
             </div>
             <div>
               <div className="text-4xl md:text-5xl font-bold mb-2">98%</div>
-              <div className="text-sm md:text-base opacity-90">Satisfação</div>
+              <div className="text-sm md:text-base opacity-90">de aprovação dos clientes atendidos</div>
             </div>
             <div>
               <div className="text-4xl md:text-5xl font-bold mb-2">24/7</div>
-              <div className="text-sm md:text-base opacity-90">Suporte Disponível</div>
+              <div className="text-sm md:text-base opacity-90">Atendimento de Emergências</div>
             </div>
           </div>
         </div>
@@ -143,10 +142,10 @@ export default function LandingPage() {
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Por Que Escolher a Alfa Climatização?
+              Por Que Escolher Nossos Serviços de Ar Condicionado?
             </h2>
             <p className="text-lg text-muted-foreground">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+              Qualidade e confiança em cada instalação e manutenção de ar condicionado.
             </p>
           </div>
 
@@ -156,9 +155,9 @@ export default function LandingPage() {
                 <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto">
                   <Award className="h-8 w-8 text-accent" />
                 </div>
-                <h3 className="text-xl font-bold text-foreground">Certificações e Qualidade</h3>
+                <h3 className="text-xl font-bold text-foreground">Instalação Segura</h3>
                 <p className="text-muted-foreground">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Equipe certificada e treinada constantemente.
+                  Ar condicionado instalado com segurança e garantia total para sua família.
                 </p>
               </CardContent>
             </Card>
@@ -170,7 +169,7 @@ export default function LandingPage() {
                 </div>
                 <h3 className="text-xl font-bold text-foreground">Atendimento Rápido</h3>
                 <p className="text-muted-foreground">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atendemos emergências 24 horas por dia.
+                  Emergências de ar condicionado resolvidas rapidamente, 24 horas por dia.
                 </p>
               </CardContent>
             </Card>
@@ -180,9 +179,9 @@ export default function LandingPage() {
                 <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto">
                   <Users className="h-8 w-8 text-accent" />
                 </div>
-                <h3 className="text-xl font-bold text-foreground">Equipe Especializada</h3>
+                <h3 className="text-xl font-bold text-foreground">Técnicos Certificados</h3>
                 <p className="text-muted-foreground">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Profissionais experientes e dedicados.
+                  Profissionais especializados e certificados em ar condicionado.
                 </p>
               </CardContent>
             </Card>
@@ -194,8 +193,8 @@ export default function LandingPage() {
       <section className="py-16 md:py-24 bg-muted/30">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">O Que Nossos Clientes Dizem</h2>
-            <p className="text-lg text-muted-foreground">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">O Que Nossos Clientes Dizem Sobre Nosso Ar Condicionado</h2>
+            <p className="text-lg text-muted-foreground">Veja como nossos serviços de ar condicionado transformaram o conforto dos nossos clientes.</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -207,12 +206,28 @@ export default function LandingPage() {
                   ))}
                 </div>
                 <p className="text-muted-foreground italic">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua."
+                  "Instalaram o ar condicionado da minha casa rapidamente e com muita qualidade. Agora tenho conforto térmico o ano todo. Recomendo!"
+                </p>
+                <div>
+                  <p className="font-semibold text-foreground">Maria Clara</p>
+                  <p className="text-sm text-muted-foreground">Dona de Casa</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardContent className="p-6 space-y-4">
+                <div className="flex gap-1">
+                  {[...Array(5)].map((_, i) => (
+                    <ThumbsUp key={i} className="h-5 w-5 fill-accent text-accent" />
+                  ))}
+                </div>
+                <p className="text-muted-foreground italic">
+                  "A manutenção preventiva do ar condicionado da empresa reduziu nossos custos de energia em 30%. Serviço excelente!"
                 </p>
                 <div>
                   <p className="font-semibold text-foreground">João Silva</p>
-                  <p className="text-sm text-muted-foreground">Gerente de Facilities - Empresa XYZ</p>
+                  <p className="text-sm text-muted-foreground">Empresário</p>
                 </div>
               </CardContent>
             </Card>
@@ -225,30 +240,11 @@ export default function LandingPage() {
                   ))}
                 </div>
                 <p className="text-muted-foreground italic">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco."
+                  "Repararam meu ar condicionado em poucas horas. Atendimento rápido e preço justo. Voltarei sempre!"
                 </p>
                 <div>
-                  <p className="font-semibold text-foreground">Maria Santos</p>
-                  <p className="text-sm text-muted-foreground">Proprietária - Restaurante ABC</p>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardContent className="p-6 space-y-4">
-                <div className="flex gap-1">
-                  {[...Array(5)].map((_, i) => (
-                    <ThumbsUp key={i} className="h-5 w-5 fill-accent text-accent" />
-                  ))}
-                </div>
-                <p className="text-muted-foreground italic">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in
-                  voluptate velit."
-                </p>
-                <div>
-                  <p className="font-semibold text-foreground">Carlos Oliveira</p>
-                  <p className="text-sm text-muted-foreground">Diretor - Indústria DEF</p>
+                  <p className="font-semibold text-foreground">Ana Costa</p>
+                  <p className="text-sm text-muted-foreground">Professora</p>
                 </div>
               </CardContent>
             </Card>
@@ -261,17 +257,16 @@ export default function LandingPage() {
         <div className="container text-center">
           <div className="max-w-3xl mx-auto space-y-6">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-balance">
-              Pronto Para Ter o Melhor em Climatização?
+              Precisa de Ar Condicionado Agora?
             </h2>
             <p className="text-lg md:text-xl opacity-90 text-pretty">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Entre em contato agora e receba um orçamento
-              personalizado.
+              Entre em contato e receba um orçamento personalizado para seu ar condicionado.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <Button size="lg" variant="secondary" className="text-lg" asChild>
                 <a href="https://api.whatsapp.com/send?phone=5544991111996" target="_blank" rel="noopener noreferrer">
                   <Phone className="mr-2 h-5 w-5" />
-                  Fale pelo WhatsApp
+                  Fale Agora no WhatsApp
                 </a>
               </Button>
               <Button
