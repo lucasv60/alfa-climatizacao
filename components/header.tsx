@@ -37,7 +37,7 @@ export function Header() {
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
             <Button asChild>
-              <a href="https://api.whatsapp.com/send?phone=5544991111996" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+              <a href="https://api.whatsapp.com/send?phone=5544991111996&text=Ol%C3%A1%2C%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site%20de%20voc%C3%AAs" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
                 Fale Conosco
               </a>
@@ -76,7 +76,7 @@ export function Header() {
                 Sobre Nós
               </Link>
               <Button asChild className="w-full">
-                <a href="https://api.whatsapp.com/send?phone=5544991111996" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
+                <a href="https://api.whatsapp.com/send?phone=5544991111996&text=Ol%C3%A1%2C%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site%20de%20voc%C3%AAs" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
                   <Phone className="h-4 w-4" />
                   Fale Conosco
                 </a>
