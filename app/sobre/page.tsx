@@ -21,10 +21,10 @@ export default function SobrePage() {
                 Sobre Nós
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                A Alfa Climatização é uma empresa jovem, moderna e comprometida em entregar serviços de climatização com qualidade, segurança e eficiência. Apesar de termos 1 ano de operação, nossa equipe é formada por técnicos e especialistas com mais de 6 anos de experiência no setor de refrigeração e ar-condicionado.
+                A Alfa Climatização é uma empresa dedicada a oferecer soluções completas em refrigeração e ar-condicionado, prezando sempre pela qualidade, segurança e eficiência. Nossa equipe é composta por técnicos e especialistas altamente capacitados, com ampla experiência no setor e compromisso absoluto com a excelência.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Unimos conhecimento técnico, atendimento humanizado e as melhores práticas do mercado para garantir soluções confiáveis para residências, empresas e indústrias.
+                Combinamos conhecimento técnico, atendimento humanizado e as melhores práticas do mercado para entregar projetos confiáveis, seja para residências, empresas ou indústrias. Nosso objetivo é garantir conforto térmico, desempenho superior e total tranquilidade em cada serviço realizado.
               </p>
             </div>
           </div>
@@ -52,13 +52,13 @@ export default function SobrePage() {
                 <h2 className="text-3xl md:text-4xl font-bold text-balance">Nossa História</h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    A Alfa Climatização nasceu com o propósito de oferecer um serviço mais profissional, transparente e alinhado às necessidades reais dos clientes.
+                    A Alfa Climatização surgiu com o propósito de elevar o padrão dos serviços de climatização, oferecendo um atendimento profissional, transparente e realmente alinhado às necessidades de cada cliente.
                   </p>
                   <p>
-                    Começamos como uma equipe pequena, mas altamente qualificada, focada em instalações, manutenções e projetos de climatização. Desde então, evoluímos rapidamente atendendo residências, comércios e empresas que buscavam um atendimento ágil e especializado.
+                    Desde o início, consolidamos uma equipe altamente qualificada, especializada em instalações, manutenções e projetos de refrigeração e ar-condicionado. Ao longo do tempo, ampliamos nossa atuação e passamos a atender residências, comércios e empresas que buscavam eficiência, agilidade e excelência técnica.
                   </p>
                   <p>
-                    Com processos bem definidos, compromisso com prazos e foco na qualidade do ar e eficiência energética, construímos uma reputação baseada na confiança e satisfação dos nossos clientes.
+                    Com processos estruturados, rigor no cumprimento de prazos e foco na qualidade do ar e na eficiência energética, construímos uma trajetória marcada pela confiança, pelos resultados e pela satisfação dos nossos clientes.
                   </p>
                 </div>
                 <div className="grid grid-cols-3 gap-6 pt-4">
