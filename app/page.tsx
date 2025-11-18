@@ -37,7 +37,7 @@ export default function HomePage() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button size="lg" asChild>
-                    <a href="https://api.whatsapp.com/send?phone=5544991111996&text=Ol%C3%A1%2C%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site%20de%20voc%C3%AAs" target="_blank" rel="noopener noreferrer">
+                    <a href="https://api.whatsapp.com/send?phone=5544991111996&text=Ol%C3%A1%21%20Estou%20entrando%20em%20contato%20com%20voc%C3%AAs%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.%20" target="_blank" rel="noopener noreferrer">
                       Solicitar Orçamento
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </a>
@@ -59,54 +59,54 @@ export default function HomePage() {
         </section>
 
         {/* Diferenciais */}
-        <section className="py-16 md:py-24 bg-muted/30">
+        <section className="py-16 md:py-24 bg-primary text-primary-foreground">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">
                 Por Que Escolher Nossos Serviços de Ar Condicionado?
               </h2>
-              <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+              <p className="text-primary-foreground/90 max-w-2xl mx-auto leading-relaxed">
                 Qualidade e confiança em cada instalação e manutenção de ar condicionado.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <Card className="border-2 hover:border-primary transition-colors">
+              <Card className="border-2 hover:border-primary-foreground transition-colors bg-primary-foreground text-primary">
                 <CardContent className="pt-6">
                   <div className="flex flex-col items-center text-center space-y-4">
-                    <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
-                      <Shield className="h-6 w-6 text-primary" />
+                    <div className="h-12 w-12 rounded-full bg-primary flex items-center justify-center">
+                      <Shield className="h-6 w-6 text-primary-foreground" />
                     </div>
                     <h3 className="font-semibold text-lg">Segurança Garantida</h3>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
+                    <p className="text-sm leading-relaxed">
                       Ar condicionado instalado com segurança e garantia total para sua família.
                     </p>
                   </div>
                 </CardContent>
               </Card>
 
-              <Card className="border-2 hover:border-primary transition-colors">
+              <Card className="border-2 hover:border-primary-foreground transition-colors bg-primary-foreground text-primary">
                 <CardContent className="pt-6">
                   <div className="flex flex-col items-center text-center space-y-4">
-                    <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
-                      <Award className="h-6 w-6 text-primary" />
+                    <div className="h-12 w-12 rounded-full bg-primary flex items-center justify-center">
+                      <Award className="h-6 w-6 text-primary-foreground" />
                     </div>
                     <h3 className="font-semibold text-lg">Certificações</h3>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
+                    <p className="text-sm leading-relaxed">
                       Profissionais especializados e certificados em ar condicionado.
                     </p>
                   </div>
                 </CardContent>
               </Card>
 
-              <Card className="border-2 hover:border-primary transition-colors">
+              <Card className="border-2 hover:border-primary-foreground transition-colors bg-primary-foreground text-primary">
                 <CardContent className="pt-6">
                   <div className="flex flex-col items-center text-center space-y-4">
-                    <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
-                      <CheckCircle2 className="h-6 w-6 text-primary" />
+                    <div className="h-12 w-12 rounded-full bg-primary flex items-center justify-center">
+                      <CheckCircle2 className="h-6 w-6 text-primary-foreground" />
                     </div>
                     <h3 className="font-semibold text-lg">Garantia Total</h3>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
+                    <p className="text-sm leading-relaxed">
                       Cobertura total em todos os serviços de ar condicionado.
                     </p>
                   </div>
@@ -178,27 +178,27 @@ export default function HomePage() {
         </section>
 
         {/* Serviços em Destaque */}
-        <section className="py-16 md:py-24 bg-muted/30">
+        <section className="py-16 md:py-24 bg-primary text-primary-foreground">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Nossos Serviços de Ar Condicionado</h2>
-              <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+              <p className="text-primary-foreground/90 max-w-2xl mx-auto leading-relaxed">
                 Soluções completas para instalação e manutenção de ar condicionado residencial e comercial.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <Card className="hover:shadow-lg transition-shadow">
+              <Card className="hover:shadow-lg transition-shadow bg-primary-foreground text-primary">
                 <CardContent className="pt-6">
                   <div className="space-y-4">
-                    <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                      <Snowflake className="h-6 w-6 text-primary" />
+                    <div className="h-12 w-12 rounded-lg bg-primary flex items-center justify-center">
+                      <Snowflake className="h-6 w-6 text-primary-foreground" />
                     </div>
                     <h3 className="font-semibold text-lg">Instalação de Ar Condicionado</h3>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
+                    <p className="text-sm leading-relaxed">
                       Instalação profissional garantindo máximo desempenho do seu ar condicionado.
                     </p>
-                    <Button variant="link" className="p-0 h-auto" asChild>
+                    <Button variant="link" className="p-0 h-auto text-primary hover:text-primary/80" asChild>
                       <Link href="/servicos">
                         Ver detalhes
                         <ArrowRight className="ml-1 h-3 w-3" />
@@ -208,17 +208,17 @@ export default function HomePage() {
                 </CardContent>
               </Card>
 
-              <Card className="hover:shadow-lg transition-shadow">
+              <Card className="hover:shadow-lg transition-shadow bg-primary-foreground text-primary">
                 <CardContent className="pt-6">
                   <div className="space-y-4">
-                    <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                      <Wrench className="h-6 w-6 text-primary" />
+                    <div className="h-12 w-12 rounded-lg bg-primary flex items-center justify-center">
+                      <Wrench className="h-6 w-6 text-primary-foreground" />
                     </div>
                     <h3 className="font-semibold text-lg">Manutenção de Ar Condicionado</h3>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
+                    <p className="text-sm leading-relaxed">
                       Manutenção preventiva para ar condicionado sempre funcionando perfeitamente.
                     </p>
-                    <Button variant="link" className="p-0 h-auto" asChild>
+                    <Button variant="link" className="p-0 h-auto text-primary hover:text-primary/80" asChild>
                       <Link href="/servicos">
                         Ver detalhes
                         <ArrowRight className="ml-1 h-3 w-3" />
@@ -228,17 +228,17 @@ export default function HomePage() {
                 </CardContent>
               </Card>
 
-              <Card className="hover:shadow-lg transition-shadow">
+              <Card className="hover:shadow-lg transition-shadow bg-primary-foreground text-primary">
                 <CardContent className="pt-6">
                   <div className="space-y-4">
-                    <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                      <FileCheck className="h-6 w-6 text-primary" />
+                    <div className="h-12 w-12 rounded-lg bg-primary flex items-center justify-center">
+                      <FileCheck className="h-6 w-6 text-primary-foreground" />
                     </div>
                     <h3 className="font-semibold text-lg">PMOC</h3>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
+                    <p className="text-sm leading-relaxed">
                       Plano completo que mantém ar condicionado em perfeitas condições e evita multas.
                     </p>
-                    <Button variant="link" className="p-0 h-auto" asChild>
+                    <Button variant="link" className="p-0 h-auto text-primary hover:text-primary/80" asChild>
                       <Link href="/servicos">
                         Ver detalhes
                         <ArrowRight className="ml-1 h-3 w-3" />
@@ -248,17 +248,17 @@ export default function HomePage() {
                 </CardContent>
               </Card>
 
-              <Card className="hover:shadow-lg transition-shadow">
+              <Card className="hover:shadow-lg transition-shadow bg-primary-foreground text-primary">
                 <CardContent className="pt-6">
                   <div className="space-y-4">
-                    <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                      <Building2 className="h-6 w-6 text-primary" />
+                    <div className="h-12 w-12 rounded-lg bg-primary flex items-center justify-center">
+                      <Building2 className="h-6 w-6 text-primary-foreground" />
                     </div>
                     <h3 className="font-semibold text-lg">Infraestrutura para Ar Condicionado</h3>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
+                    <p className="text-sm leading-relaxed">
                       Projetos completos de infraestrutura para sistemas de ar condicionado eficientes.
                     </p>
-                    <Button variant="link" className="p-0 h-auto" asChild>
+                    <Button variant="link" className="p-0 h-auto text-primary hover:text-primary/80" asChild>
                       <Link href="/servicos">
                         Ver detalhes
                         <ArrowRight className="ml-1 h-3 w-3" />
@@ -270,7 +270,7 @@ export default function HomePage() {
             </div>
 
             <div className="text-center mt-8">
-              <Button size="lg" variant="outline" asChild>
+              <Button size="lg" variant="outline" className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
                 <Link href="/servicos">
                   Ver Todos os Serviços
                   <ArrowRight className="ml-2 h-4 w-4" />
@@ -376,7 +376,7 @@ export default function HomePage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" variant="secondary" asChild>
-                  <a href="https://api.whatsapp.com/send?phone=5544991111996&text=Ol%C3%A1%2C%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site%20de%20voc%C3%AAs" target="_blank" rel="noopener noreferrer">
+                  <a href="https://api.whatsapp.com/send?phone=5544991111996&text=Ol%C3%A1%21%20Estou%20entrando%20em%20contato%20com%20voc%C3%AAs%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.%20" target="_blank" rel="noopener noreferrer">
                     Solicitar Orçamento
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </a>
@@ -418,7 +418,7 @@ export default function HomePage() {
                       Clique no botão abaixo para iniciar uma conversa sobre ar condicionado diretamente no WhatsApp
                     </p>
                     <Button size="lg" className="w-full bg-green-500 hover:bg-green-600" asChild>
-                      <a href="https://api.whatsapp.com/send?phone=5544991111996&text=Ol%C3%A1%2C%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site%20de%20voc%C3%AAs" target="_blank" rel="noopener noreferrer">
+                      <a href="https://api.whatsapp.com/send?phone=5544991111996&text=Ol%C3%A1%21%20Estou%20entrando%20em%20contato%20com%20voc%C3%AAs%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.%20" target="_blank" rel="noopener noreferrer">
                         <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
                           <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
                         </svg>

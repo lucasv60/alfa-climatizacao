@@ -59,7 +59,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <a href="https://api.whatsapp.com/send?phone=5544991111996&text=Ol%C3%A1%2C%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site%20de%20voc%C3%AAs" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                <a href="https://api.whatsapp.com/send?phone=5544991111996&text=Ol%C3%A1%21%20Estou%20entrando%20em%20contato%20com%20voc%C3%AAs%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.%20" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                   (44) 99111-1996
                 </a>
               </li>
