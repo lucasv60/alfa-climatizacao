@@ -260,7 +260,7 @@ export default function SobrePage() {
                       </a>
                     </Button>
                     <p className="text-sm text-muted-foreground">
-                      Atendimento rápido • Orçamento gratuito • Suporte 24/7
+                      Atendimento rápido • Orçamento gratuito
                     </p>
                   </div>
                 </CardContent>

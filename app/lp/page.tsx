@@ -104,7 +104,7 @@ export default function LandingPage() {
                     </a>
                   </Button>
                   <p className="text-xs text-center text-muted-foreground">
-                    Atendimento rápido • Orçamento gratuito • Suporte 24/7
+                    Atendimento rápido • Orçamento gratuito
                   </p>
                 </div>
               </CardContent>
