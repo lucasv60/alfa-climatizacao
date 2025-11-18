@@ -10,7 +10,6 @@ import {
   FileCheck,
   Building2,
   Thermometer,
-  Wind,
   Zap,
   ClipboardCheck,
   CheckCircle2,
@@ -185,7 +184,7 @@ export default function ServicosPage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">Análise de qualidade do ar e condições ambientais</span>
+                      <span className="text-sm text-muted-foreground">Relatórios técnicos completos e atualizados</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
@@ -285,19 +284,6 @@ export default function ServicosPage() {
                 </CardContent>
               </Card>
 
-              <Card className="hover:shadow-lg transition-shadow">
-                <CardContent className="pt-6">
-                  <div className="space-y-4">
-                    <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                      <Wind className="h-6 w-6 text-primary" />
-                    </div>
-                    <h3 className="font-semibold text-lg">Qualidade do Ar</h3>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
-                      Monitoramento e análise da qualidade do ar interno, garantindo ambientes mais saudáveis e em conformidade com normas vigentes.
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
 
               <Card className="hover:shadow-lg transition-shadow">
                 <CardContent className="pt-6">
