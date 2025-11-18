@@ -7,8 +7,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "RefriClima - Soluções em Refrigeração",
-  description: "Especialistas em instalação, manutenção e PMOC de sistemas de refrigeração",
+  title: "Alfa Climatização - Serviços Técnicos de Ar Condicionado",
+  description: "Especialistas em instalação, manutenção e PMOC de ar condicionado. Conforto térmico garantido para sua casa e empresa.",
   generator: "v0.app",
 }
 
