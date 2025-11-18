@@ -16,7 +16,7 @@ export function Footer() {
               />
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Soluções completas em refrigeração para seu negócio. Qualidade, segurança e eficiência.
+              Soluções completas em ar-condicionado para o seu negócio. Qualidade, segurança e eficiência.
             </p>
           </div>
 
