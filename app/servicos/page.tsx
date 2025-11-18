@@ -32,7 +32,7 @@ export default function ServicosPage() {
               <Badge className="w-fit mx-auto">Nossos Serviços</Badge>
               <h1 className="text-4xl md:text-5xl font-bold text-balance">Serviços Técnicos de Ar-Condicionado</h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Instalação, manutenção, reparo e elaboração de PMOC com equipe especializada. Conforto térmico garantido para sua casa ou empresa.
+                Instalação, manutenção, higienização, reparo e elaboração de PMOC com equipe especializada. Conforto térmico garantido para sua casa ou empresa.
               </p>
             </div>
           </div>
@@ -188,7 +188,7 @@ export default function ServicosPage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">Relatórios técnicos completos e atualizados</span>
+                      <span className="text-sm text-muted-foreground">Emissão de TRT</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
@@ -227,10 +227,6 @@ export default function ServicosPage() {
                     Desenvolvemos projetos completos de infraestrutura para garantir instalações seguras, eficientes e preparadas para o melhor desempenho dos sistemas de climatização. Atuamos desde o planejamento até a adequação final do ambiente, sempre seguindo normas técnicas e as necessidades do seu projeto.
                   </p>
                   <ul className="space-y-2">
-                    <li className="flex items-start gap-2">
-                      <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">Projetos elétricos e hidráulicos para sistemas de climatização</span>
-                    </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                       <span className="text-sm text-muted-foreground">Dimensionamento correto dos equipamentos e tubulações</span>
