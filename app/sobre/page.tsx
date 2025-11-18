@@ -165,8 +165,7 @@ export default function SobrePage() {
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Por Que Somos Diferentes</h2>
               <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nossos diferenciais nos tornam únicos no
-                mercado.
+                Construímos nossa reputação oferecendo atendimento de qualidade, soluções eficientes e total compromisso com o cliente. Nossos diferenciais refletem a seriedade e a dedicação que colocamos em cada projeto.
               </p>
             </div>
 
@@ -179,8 +178,7 @@ export default function SobrePage() {
                     </div>
                     <h3 className="font-semibold text-lg">Certificações</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet. Equipe certificada e qualificada com as principais certificações do
-                      setor.
+                      Nossa equipe possui certificações reconhecidas no setor, garantindo que cada serviço seja executado com segurança, precisão e dentro dos mais altos padrões técnicos.
                     </p>
                   </div>
                 </CardContent>
@@ -194,7 +192,7 @@ export default function SobrePage() {
                     </div>
                     <h3 className="font-semibold text-lg">Equipe Especializada</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet. Profissionais altamente capacitados e em constante atualização.
+                      Contamos com profissionais experientes, constantemente atualizados e preparados para oferecer o melhor em climatização e refrigeração.
                     </p>
                   </div>
                 </CardContent>
@@ -208,7 +206,7 @@ export default function SobrePage() {
                     </div>
                     <h3 className="font-semibold text-lg">Tecnologia Avançada</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet. Equipamentos modernos e soluções tecnológicas de ponta.
+                      Utilizamos equipamentos modernos e tecnologias de ponta para entregar resultados mais rápidos, eficientes e duradouros.
                     </p>
                   </div>
                 </CardContent>
@@ -222,7 +220,7 @@ export default function SobrePage() {
                     </div>
                     <h3 className="font-semibold text-lg">Garantia Total</h3>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Lorem ipsum dolor sit amet. Garantia completa em todos os serviços e instalações realizadas.
+                      Oferecemos garantia completa em todos os serviços e instalações, reforçando nosso compromisso com a qualidade e a satisfação dos nossos clientes.
                     </p>
                   </div>
                 </CardContent>
