@@ -229,14 +229,11 @@ export default function SobrePage() {
           </div>
         </section>
 
-       {/* Nossa Equipe Técnica */}
+       {/* Técnico responsável */}
        <section className="py-16 md:py-24">
          <div className="container mx-auto px-4">
            <div className="text-center mb-12">
-             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Nossa Equipe Técnica</h2>
-             <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-               Conheça os profissionais que fazem a diferença na Alfa Climatização.
-             </p>
+             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Técnico responsável</h2>
            </div>
            <div className="flex justify-center">
              <Card className="max-w-sm">
@@ -252,9 +249,6 @@ export default function SobrePage() {
                      <p className="text-sm text-muted-foreground">Técnico Responsável</p>
                      <p className="text-sm text-muted-foreground">CFT: 07313611994</p>
                    </div>
-                   <p className="text-sm text-muted-foreground leading-relaxed">
-                     Especialista em climatização com anos de experiência, garantindo serviços de alta qualidade e eficiência.
-                   </p>
                  </div>
                </CardContent>
              </Card>
