@@ -229,9 +229,40 @@ export default function SobrePage() {
           </div>
         </section>
 
+       {/* Nossa Equipe Técnica */}
+       <section className="py-16 md:py-24">
+         <div className="container mx-auto px-4">
+           <div className="text-center mb-12">
+             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Nossa Equipe Técnica</h2>
+             <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+               Conheça os profissionais que fazem a diferença na Alfa Climatização.
+             </p>
+           </div>
+           <div className="flex justify-center">
+             <Card className="max-w-sm">
+               <CardContent className="pt-6">
+                 <div className="flex flex-col items-center text-center space-y-4">
+                   <img
+                     src="/tecnico-vinicius.jpg"
+                     alt="Vinicius Abreu"
+                     className="w-32 h-32 rounded-full object-cover"
+                   />
+                   <div>
+                     <h3 className="text-xl font-semibold">Vinicius Abreu</h3>
+                     <p className="text-sm text-muted-foreground">Técnico Responsável</p>
+                     <p className="text-sm text-muted-foreground">CFT: 07313611994</p>
+                   </div>
+                   <p className="text-sm text-muted-foreground leading-relaxed">
+                     Especialista em climatização com anos de experiência, garantindo serviços de alta qualidade e eficiência.
+                   </p>
+                 </div>
+               </CardContent>
+             </Card>
+           </div>
+         </div>
+       </section>
 
-
-        {/* Contato */}
+       {/* Contato */}
         <section id="contato" className="py-16 md:py-24">
           <div className="container mx-auto px-4">
             <div className="max-w-2xl mx-auto">
