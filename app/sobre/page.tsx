@@ -236,13 +236,13 @@ export default function SobrePage() {
              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Técnico responsável</h2>
            </div>
            <div className="flex justify-center">
-             <Card className="max-w-sm">
+             <Card className="max-w-md">
                <CardContent className="pt-6">
                  <div className="flex flex-col items-center text-center space-y-4">
                    <img
                      src="/tecnico-vinicius.jpg"
                      alt="Vinicius Abreu"
-                     className="w-32 h-32 rounded-full object-cover"
+                     className="w-40 h-40 rounded-full object-cover"
                    />
                    <div>
                      <h3 className="text-xl font-semibold">Vinicius Abreu</h3>
